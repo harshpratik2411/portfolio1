@@ -31,7 +31,7 @@ export default function Home() {
     ].map(({ Icon, title, desc }) => (
       <div
         key={title}
-        className="rounded-xl p-6 bg-gradient-to-r from-blue-100 to-teal-200 text-black border border-transparent shadow-lg hover:shadow-2xl hover:scale-105 hover:translate-y-1 transition-all duration-300 hover:bg-gradient-to-r hover:from-teal-200 hover:to-blue-100"
+        className="rounded-xl p-6 bg-linear-to-r from-blue-100 to-teal-200 text-black border border-transparent shadow-lg hover:shadow-2xl hover:scale-105 hover:translate-y-1 transition-all duration-300 hover:bg-linear-to-r hover:from-teal-200 hover:to-blue-100"
       >
         <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md">
           <Icon className="h-6 w-6 text-blue-600" />

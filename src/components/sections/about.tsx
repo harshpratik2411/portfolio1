@@ -27,7 +27,7 @@ export default function About() {
         <div 
           className="text-center mb-12 opacity-0 animate-[fadeUp_0.6s_ease-out_forwards]"
         >
-          <h2 className="text-3xl mt-5 md:text-4xl font-bold bg-gradient-to-r 
+          <h2 className="text-3xl mt-5 md:text-4xl font-bold bg-linear-to-r 
             from-foreground to-foreground/60 dark:from-white dark:to-gray-300 
             bg-clip-text text-blue-400">
             About Me

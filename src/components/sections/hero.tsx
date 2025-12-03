@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         {/* Right side frame with image */}
-        <div className="relative aspect-square rounded-2xl bg-gradient-to-br from-blue-600/20 to-purple-600/20 dark:from-blue-400/20 dark:to-purple-400/20 overflow-hidden">
+        <div className="relative aspect-square rounded-2xl bg-linear-to-br from-blue-600/20 to-purple-600/20 dark:from-blue-400/20 dark:to-purple-400/20 overflow-hidden">
           {/* Decorative frame */}
           <div className="absolute inset-6 rounded-2xl bg-background border border-black/10 dark:border-white/10 shadow-xl" />
           <div className="absolute -top-10 -left-10 h-40 w-40 rounded-full bg-blue-600/30 blur-2xl" />
